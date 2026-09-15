@@ -1,0 +1,22 @@
+{
+  "name": "lack/citymap",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lack\\CityMap\\": "src/"
+    },
+    "files": [
+      "src/Cli2Compat.php"
+    ]
+  },
+  "require": {
+    "php": ">=8.3",
+    "ext-pdo_sqlite": "*"
+  },
+  "require-dev": {
+    "phore/cli2": "dev-main"
+  }
+}

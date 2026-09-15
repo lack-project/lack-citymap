@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b6f42d25f2dfa515cb594a81eea67f4f",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "phore/cli2",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phore/phore-cli2.git",
+                "reference": "5508119e2bcfd0251194979e31b1282a44b53838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phore/phore-cli2/zipball/5508119e2bcfd0251194979e31b1282a44b53838",
+                "reference": "5508119e2bcfd0251194979e31b1282a44b53838",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phore/tester": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phore\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Leuffen",
+                    "email": "m@tth.es"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/phore/phore-cli2/issues",
+                "source": "https://github.com/phore/phore-cli2/tree/main"
+            },
+            "time": "2026-06-10T10:45:09+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phore/cli2": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.3"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

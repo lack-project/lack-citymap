@@ -1,0 +1,18 @@
+version: 1
+from: "ghcr.io/nfra-project/kickstart-flavor-php:unstable"
+ports: "80:80/tcp;4000:4000/tcp;4100:4100/tcp"
+secrets: open_ai
+
+
+#config_file:
+#  template: "config.php.dist"
+#  target: "config.php"
+
+command:
+  build:
+    ##- "sudo apt-get update && sudo apt-get install -y php-libsodium"
+    - "composer update"
+
+  test:
+    - "phpunit"
+
